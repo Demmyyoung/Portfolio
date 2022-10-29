@@ -1,0 +1,54 @@
+@media ( max-width :1000px) {
+    .skills .col-3, .section-projects .col-4 {
+        width: 50%;
+    }
+    
+    .section-about .col-5 {
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .contact-section .col-8 {
+        width: 100%;
+    }
+    .skills-wrapper{
+        width: 100%;
+    }
+    .section-about .col-7{
+        width: 100%;
+    }
+}
+
+@media( max-width :750px) {
+    .header-text{
+        font-size: 50px;
+    }
+    .nav-wrapper{
+        display: none;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    form .col-6{
+        width: 100%;
+    }
+    .skills .col-3, .section-projects .col-4 {
+        width: 100%;
+    }
+    .form-group{
+        margin-right: 0;
+    }
+}
+@media( max-width :450px) {
+    .contact {
+        padding: 50px 10px;
+    }
+    .header-text{
+        font-size: 40px;
+    }
+    .header-text span{
+        font-size: 25px;
+    }
+   
+}

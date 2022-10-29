@@ -16,8 +16,9 @@ body{
 }
 /* REUSEABLE STYLES */
 .container{
-  width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
+  padding: 0 50px;
 }
 .btn-black{
   background-color: #000;
@@ -228,8 +229,8 @@ color: #3d3d3d;
 
 /*===========ABOUT SECTION===============*/
 .about-img{
-  width: auto;
-  height: 500px;
+  width: 100%;
+  height: auto;
   border: 10px solid transparent;
   border-radius: 10px;
   transition: .3s all ease-in;
